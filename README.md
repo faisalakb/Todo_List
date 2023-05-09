@@ -84,7 +84,7 @@ Install Node Js on your local computer.
 
 Install this project with:
 
-<pre> git clone https://github.com/faisalakb/awesomeBookES6.git</pre>
+<pre> git clone https://github.com/faisalakb/Todo_List.git</pre>
 
 ### Usage
 
