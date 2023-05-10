@@ -1,19 +1,37 @@
 import './style.css';
 
+const todoList = [];
 let list = [];
-const tasks = [{ description: 'wash the dishes', completed: false, index: 0 },
-  { description: 'complete To Do list project', completed: false, index: 1 }];
+const inp = document.getElementById('inpId');
 const ul = document.getElementById('ulId');
-list = JSON.stringify(tasks);
-localStorage.setItem('listItems12', list);
-const txt = localStorage.getItem('listItems12');
-const objData = JSON.parse(txt);
+let id = 0;
+inp.addEventListener('keypress', (event) => {
+  if (event.key === 'Enter') {
+    if (inp.value === '') {
+      alert('Please enter a todo');
+    } else {
+      todoList.push({ count: id += 1, title: inp.value, completed: false });
+      list = JSON.stringify(todoList);
+      localStorage.setItem('listItems12', list);
+    }
+  }
+});
+
 function display() {
+  ul.innerHTML = '';
+  const txt = localStorage.getItem('listItems12');
+  const objData = JSON.parse(txt);
   objData.forEach((element) => {
-    ul.innerHTML += `<br><input type="checkbox" class="chbox" >
-      <li>${element.description}</li>
-      <div class="test"></div>
-      <br><br>`;
+    ul.innerHTML += `<input type="checkbox" class="chbox" >
+    <li>${element.title}</li>
+    <div class="test"></div>
+    <br>`;
   });
 }
-display();
+
+inp.addEventListener('keyup', (event) => {
+  if (event.key === 'Enter') {
+    inp.value = '';
+    display();
+  }
+});
