@@ -5,15 +5,16 @@ let list = [];
 const inp = document.getElementById('inpId');
 const ul = document.getElementById('ulId');
 const clsBtn = document.getElementById('clsBtn');
-const refres=document.getElementById('refres');
+const refres = document.getElementById('refres');
 let id = 0;
 refres.onclick = () => {
-  location.reload();}
-refres.addEventListener("mouseover", () => {
-    refres.classList.add("fa-spin");
+  window.location.reload();
+};
+refres.addEventListener('mouseover', () => {
+  refres.classList.add('fa-spin');
 });
-refres.addEventListener("mouseout", () => {
-  refres.classList.remove("fa-spin");
+refres.addEventListener('mouseout', () => {
+  refres.classList.remove('fa-spin');
 });
 inp.addEventListener('keypress', (event) => {
   if (event.key === 'Enter') {
