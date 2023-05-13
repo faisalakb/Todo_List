@@ -1,5 +1,5 @@
 import './style.css';
-import { todoList } from './storeItems.js';
+import { todoList, display } from './storeItems.js';
 
 const clsBtn = document.getElementById('clsBtn');
 const refres = document.getElementById('refres');
@@ -43,3 +43,5 @@ clsBtn.addEventListener('click', (event) => {
   console.log(event);
   del();
 });
+
+display();
