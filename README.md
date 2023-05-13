@@ -30,7 +30,7 @@ Hello, I am:
 
 # 📖 [Todo List] <a name="about-project"></a>
 
-"Todo List" is a simple website that have a functionality to add daily activity. In this project we use array of objects to add todo's using JavaScript.Furthermore, use webpack to render all script,css,html,images,icons and font into single file. By building this application, you will learn how to manage data using JavaScript. we also use a medium-fidelity wireframe to build the UI.
+"Todo List" is a simple website that have a functionality to add daily activity. In this project we use array of objects to add or delete or update  todo's using JavaScript.Furthermore, use webpack to render all script,css,html,images,icons and font into single file. By building this application, you will learn how to manage data using JavaScript. we also use a medium-fidelity wireframe to build the UI.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -47,6 +47,8 @@ GitHub & Visual Studio Code
 ### Key Features <a name="key-features"></a>
 
 - Add todo's
+- Delete todo's
+- Update todo's
 - Save previously loaded information
 - Enter button to be able to add todo's.
 - Use import, export, modules to simplify the code
