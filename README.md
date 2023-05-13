@@ -62,9 +62,9 @@ GitHub & Visual Studio Code
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](<a href="https://faisalakb.github.io/Todo_List/dist/"></a>)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="https://faisalakb.github.io/Todo_List/dist/">back to top</a>)</p>
 
 
 
