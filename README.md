@@ -50,6 +50,7 @@ GitHub & Visual Studio Code
 - Delete todo's
 - Update todo's
 - Save previously loaded information
+- Single click to clear all todo's list
 - Enter button to be able to add todo's.
 - Use import, export, modules to simplify the code
 - Use arrow functions and classes as well for  reusability
