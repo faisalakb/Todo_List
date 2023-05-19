@@ -143,38 +143,6 @@ describe('Edit Item', () => {
     });
   });
 
-  // it('should remove all completed items from the todoList', () => {
-  //   const item1 = { index: 1, title: 'Item 1', completed: true };
-  //   const item2 = { index: 2, title: 'Item 2', completed: false };
-  //   const item3 = { index: 3, title: 'Item 3', completed: true };
-
-  //   todoList.push(item1, item2, item3);
-  //   display();
-  //   window.addEventListener('DOMContentLoaded', () => {
-  //   const clearBtn = document.getElementById('clsBtn');
-  //   clearBtn.click();
-  //   });
-
-  //   const completedItems = todoList.filter((item) => item.completed);
-  //   expect(completedItems.length).toBe(0);
-  // });
-
-  // it('should remove all completed items from local storage', () => {
-  //   const item1 = { index: 1, title: 'Item 1', completed: true };
-  //   const item2 = { index: 2, title: 'Item 2', completed: false };
-  //   const item3 = { index: 3, title: 'Item 3', completed: true };
-
-  //   todoList.push(item1, item2, item3);
-  //   display();
-  //   window.addEventListener('DOMContentLoaded', () => {
-  //   const clearBtn = document.getElementById('clsBtn');
-  //   clearBtn.click();
-  //   });
-  //   const storedList = JSON.parse(localStorage.getItem('listItems12'));
-  //   const completedItems = storedList.filter((item) => item.completed);
-  //   expect(completedItems.length).toBe(0);
-  // });
-
   it('should remove all completed items from the DOM', () => {
     const item1 = { index: 1, title: 'Item 1', completed: true };
     const item2 = { index: 2, title: 'Item 2', completed: false };
