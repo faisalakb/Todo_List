@@ -39,3 +39,9 @@ function del() {
   return 0;
 }
 
+clsBtn.addEventListener('click', (event) => {
+  console.log(event);
+  del();
+});
+
+display();
