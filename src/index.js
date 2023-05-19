@@ -1,5 +1,5 @@
 import './style.css';
-import { todoList, display } from './storeItems.js';
+import { todoList, display } from '../modules/storeItems.js';
 
 const clsBtn = document.getElementById('clsBtn');
 const refres = document.getElementById('refres');
