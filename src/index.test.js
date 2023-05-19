@@ -182,4 +182,12 @@ describe('Edit Item', () => {
 
     todoList.push(item1, item2, item3);
     display();
-   
+    window.addEventListener('DOMContentLoaded', () => {
+      const clearBtn = document.getElementById('clsBtn');
+      clearBtn.click();
+    });
+
+    const completedItemElements = document.querySelectorAll('.completed');
+    expect(completedItemElements.length).toBe(0);
+  });
+});
